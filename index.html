@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pogađanje broja</title>
+</head>
+
+<body>
+    <h1>Pogodite slučajni broj!</h1>
+
+    <p>Generiran je slučajni broj u rasponu od 1 - 10. <br/>Pokušajte ga pogoditi.</p>
+
+    <div class="form">
+        <label for="poljeUnos">Upišite broj: </label>
+        <input type="text" id="poljeUnos" class="poljeUnos">
+        <input type="submit" value="Upišite broj" class="uneseniBroj" id="uneseniBroj">
+    </div>
+
+    <script type="text/javascript">
+        // random value generated
+        var y = Math.floor(Math.random() * 10 + 1);
+
+        // brojanje pokušaja
+        var guess = 1;
+
+        document.getElementById("uneseniBroj").onclick = function() {
+
+            // unos pretpostavljenog (pogađanog) broja     
+            var x = document.getElementById("poljeUnos").value;
+
+            if (x == y) {
+                alert("Bravo! točno ste pogodili iz " +
+                    guess + " pokušaja! ");
+            } else if (x > y)
+            /* ako je uneseni broj veći od generiranog */
+            {
+                guess++;
+                alert("Ne baš... zamišljeni broj je manji od vašeg pokušaja.");
+                /* ako je uneseni broj manji od generiranog */
+            } else {
+                guess++;
+                alert("Ne baš... zamišljeni broj je veći od vašeg pokušaja.")
+            }
+        }
+    </script>
+</body>
+
+</html>
