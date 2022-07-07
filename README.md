@@ -14,3 +14,7 @@ Turn this tu playing card guessing game with on card color
 
 Fourth phase:
 Turn this to playing card guessing game with full deck of cards
+
+Live on; https://mibict.github.io/JS-Guess-Number/ 
+
+Part of 2022 FED education at Algebra (https://www.algebra.hr/en/)
