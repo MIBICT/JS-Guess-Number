@@ -10,7 +10,7 @@ Second phase:
 - generate separate JS file
 
 Third phase:
-Turn this tu playing card guessing game with on card color
+Turn this to playing card guessing game with one card color
 
 Fourth phase:
 Turn this to playing card guessing game with full deck of cards
