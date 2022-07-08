@@ -6,6 +6,7 @@ providing help (tips) like; 'Try lower / higher number" and count number of unse
 When visitor guess number right - show message with total number of attempts.
 
 Second phase:
+- move message from alert window to inline text
 - generate separate CSS file and input some decoration
 - generate separate JS file &#10003;
 
