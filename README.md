@@ -7,7 +7,7 @@ When visitor guess number right - show message with total number of attempts.
 
 Second phase:
 - generate separate CSS file and input some decoration
-- generate separate JS file
+- generate separate JS file &#10004;
 
 Third phase:
 Turn this to playing card guessing game with one card color
@@ -15,7 +15,7 @@ Turn this to playing card guessing game with one card color
 Fourth phase:
 Turn this to playing card guessing game with full deck of cards
 
-Live at https://mibict.github.io/JS-Guess-Number/ <br>
+Live at https://mibict.github.io/JS-Guess-Number/ <br><br>
 
 
 Part of 2022 FED education at Algebra (https://www.algebra.hr/en/)
