@@ -7,7 +7,7 @@ When visitor guess number right - show message with total number of attempts.
 
 Second phase:
 - generate separate CSS file and input some decoration
-- generate separate JS file &#10004;
+- generate separate JS file &#10003;
 
 Third phase:
 Turn this to playing card guessing game with one card color
