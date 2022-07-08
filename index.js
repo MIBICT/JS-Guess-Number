@@ -11,7 +11,7 @@ document.getElementById("uneseniBroj").onclick = function() {
 
     if (x == y) {
         alert("Bravo! točno ste pogodili iz " +
-            guess + " pokušaja! ");
+            guess + " pokušaja!");
     } else if (x > y)
     /* ako je uneseni broj veći od generiranog */
     {
