@@ -17,4 +17,5 @@ Turn this to playing card guessing game with full deck of cards
 
 Live at https://mibict.github.io/JS-Guess-Number/ <br>
 
+
 Part of 2022 FED education at Algebra (https://www.algebra.hr/en/)
