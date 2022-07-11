@@ -16,8 +16,8 @@ document.getElementById("uneseniBroj").onclick = function () {
 // EN - setting new variable
     var x = document.getElementById("poljeUnos").value;
 
-// HR - provjera da li je unos broj
-// EN - checking if input is number
+// HR - provjera da li je unos broj, ispisuje poruku greške ako nije
+// EN - checking if input is number, prints error message if not
     if (isNaN(x)) {
         document.getElementById("poruka").innerHTML = "Neispravan unos!<br />Unesite broj između 1 i 10.";
     }
