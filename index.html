@@ -6,17 +6,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pogađanje broja</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
+    <div class="form"> 
     <h1>Pogodite slučajni broj!</h1>
 
-    <p>Generiran je slučajni broj u rasponu od 1 - 10. <br/>Pokušajte ga pogoditi.</p>
-
-    <div class="form">
+    <p>Generiran je slučajni broj u rasponu od 1 - 10. <br/>Pokušajte ga pogoditi...</p>
         <label for="poljeUnos">Upišite broj: </label>
-        <input type="text" id="poljeUnos" class="poljeUnos">
-        <input type="submit" value="Upišite broj" class="uneseniBroj" id="uneseniBroj">
+        <input type="text" id="poljeUnos" class="poljeUnos" onfocus="this.value=''">
+        <input type="submit" value="Pogađaj!" class="uneseniBroj" id="uneseniBroj">
     </div>
     <script type="text/javascript" src="./index.js"></script>
 </body>
