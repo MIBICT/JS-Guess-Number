@@ -13,8 +13,6 @@ Second phase:
 Third phase:
 Turn this to playing card guessing game with one card color
 
-Fourth phase:
-Turn this to playing card guessing game with full deck of cards
 
 Live at https://mibict.github.io/JS-Guess-Number/ <br><br>
 
