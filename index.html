@@ -15,11 +15,11 @@
 
     <p>Generiran je slučajni broj u rasponu od 1 - 10. <br/>Pokušajte ga pogoditi...</p>
         <label for="poljeUnos">Upišite broj: </label>
-        <input type="number" id="poljeUnos" class="poljeUnos" onfocus="this.value=''">
+        <input type="text" id="poljeUnos" class="poljeUnos" onfocus="this.value=''">
         <input type="submit" value="Pogađaj!" class="uneseniBroj" id="uneseniBroj">
         <p id="poruka">&nbsp;</p>
     <!-- gumb reloada stranicu kako bi se generirao novi broj -->
-        <button onclick="document.location.reload()">Novi broj</button>
+        <button id="reload" style="display:none" onclick=document.location.reload()>Novi broj</button>
     </div>
     <script type="text/javascript" src="./index.js"></script>
 </body>

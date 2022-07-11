@@ -2,7 +2,7 @@
 // EN - generating random number
 var y = Math.floor(Math.random() * 10 + 1);
 // HR - za testiranje u konzoli
-// EN - for testing in console
+// EN - for testing in Console
 console.log(y)
 
 // HR - brojanje pokušaja
@@ -16,18 +16,28 @@ document.getElementById("uneseniBroj").onclick = function () {
 // EN - setting new variable
     var x = document.getElementById("poljeUnos").value;
 
+// HR - provjera da li je unos broj
+// EN - checking if input is number
+    if (isNaN(x)) {
+        document.getElementById("poruka").innerHTML = "Neispravan unos!<br />Unesite broj između 1 i 10.";
+    }
+
 // HR - provjera da li je u unos u rasponu 1 - 10
 // EN - checking if input is in range 1 - 10
-    if (x > 10 || x < 1) {
+   else if (x > 10 || x < 1) {
 // HR - ispisuje upozorenje o pogrešci
 // EN - prints warning about error
 document.getElementById("poruka").innerHTML = "Neispravan unos!<br />Unesite broj između 1 i 10.";
     }
+
 // HR - provjera da li je odgovor točan
 // EN - checking if answer is correct
     else if (x == y) {
-        document.getElementById("poruka").innerHTML = "Bravo! točno ste pogodili iz " + guess + " pokušaja!<br />Pritisnite 'Novi broj' da bi ste igrali ponovo.";
-   }
+        document.getElementById("poruka").innerHTML = "Bravo! točno ste pogodili iz " + guess + " pokušaja!<br />Pritisnite <em>'Novi broj'</em> da bi ste igrali ponovo.";
+// HR - otkrij gumb za novi broj
+// EN - show button for new number
+    document.getElementById("reload").style.display = "inline";
+       }
 // HR - ako odgovor nije točan - provjera da li je odgovor veći od generiranog broja
 // EN - if answer is not correct - checking if answer is bigger than generated number
     else if (x > y) {
