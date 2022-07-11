@@ -6,15 +6,13 @@ providing help (tips) like; 'Try lower / higher number" and count number of unse
 When visitor guess number right - show message with total number of attempts.
 
 Second phase:
-- move message from alert window to inline text
+- move message from alert window to inline text &#10003;
 - generate separate CSS file and input some decoration
 - generate separate JS file &#10003;
 
 Third phase:
 Turn this to playing card guessing game with one card color
 
-Fourth phase:
-Turn this to playing card guessing game with full deck of cards
 
 Live at https://mibict.github.io/JS-Guess-Number/ <br><br>
 
