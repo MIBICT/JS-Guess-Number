@@ -7,7 +7,7 @@ When visitor guess number right - show message with total number of attempts.
 
 Second phase:
 - move message from alert window to inline text &#10003;
-- generate separate CSS file and input some decoration
+- generate separate CSS file and put some decoration(s) in it
 - generate separate JS file &#10003;
 
 Third phase:
